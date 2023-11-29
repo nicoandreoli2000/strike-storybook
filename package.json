@@ -1,5 +1,5 @@
 {
-  "name": "@strikesecurity/ui-core",
+  "name": "ui-core",
   "version": "1.0.0",
   "description": "ui core agnostic components",
   "main": "dist/index.js",
