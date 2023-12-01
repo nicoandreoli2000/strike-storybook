@@ -6,10 +6,12 @@ const FoundationsStorys = {
   title: 'Foundations',
 }
 
+//@ts-ignore
 const COLORS = Object.entries(colors).reduce((acc, [key, value]) => {
   if (typeof value === 'string') {
     acc.push({ key, value })
   } else {
+    //@ts-ignore
     Object.entries(value).forEach(([subKey, subValue]) => {
       acc.push({ key: `${key}.${subKey}`, value: subValue as string })
     })
