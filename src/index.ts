@@ -5,4 +5,4 @@ export { useToast } from './hooks'
 export { ThemeProvider } from './provider'
 
 // Ommited exports from @chakra-ui/react
-export { Link, LinkProps, TypographyProps, Text, TextProps } from './components'
+export { TypographyProps, Text, TextProps } from './components'
