@@ -1,4 +1,4 @@
-import { Text, Table, Thead, Tbody, Th, Td, Tr } from '../index'
+import { Table, Thead, Tbody, Th, Td, Tr, Typography } from '../index'
 
 const TypographyStories = {
   title: 'Typography',
@@ -64,7 +64,7 @@ export const Variants = () => {
         {VARIANTS.map(({ variant, label }) => (
           <Tr key={variant}>
             <Td>
-              <Text variant={variant}>{label}</Text>
+              <Typography variant={variant as any}>{label}</Typography>
             </Td>
             <Td>{variant}</Td>
           </Tr>
